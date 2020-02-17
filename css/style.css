@@ -9,6 +9,47 @@ body {
 
 }
 
+header {
+    display: block;
+    margin: 0 auto;
+}
+
+.sidebar {
+    position: fixed;
+    height: 100%;
+    top: 0;
+    width: 100px;
+    color: white;
+    z-index: +1;
+    font-size: 20px;
+    background-color: #22262a;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+
+ul p {
+    font-weight: 1000;
+}
+
+#wrapper {
+    margin-left: 150px;
+}
+
+
 /* Slet @media hvis ikke bliver brugt */
 /* husk 2 afslutninger {} inde i @media */
 /* Extra small devices (phones, 600px and down) KUN HELT SPECIFIKT FOR MOBIL SOM IKKE KAN STÅ HEROVER */
