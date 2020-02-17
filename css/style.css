@@ -56,10 +56,10 @@ h1 {
 footer {
     display: flex;
     justify-content: space-between;
-    padding: 0 10px 0 10px;
+    padding-left: 200px;
+    padding-right: 50px;
     background: #22262a;
     color: white;
-
 }
 
 /* Slet @media hvis ikke bliver brugt */
