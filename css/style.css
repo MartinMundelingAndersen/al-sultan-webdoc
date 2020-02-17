@@ -1,5 +1,5 @@
 html {
-    background-color: white;
+    background-color: darkorange;
 }
 
 body {
@@ -46,9 +46,21 @@ ul p {
 }
 
 #wrapper {
-    margin-left: 150px;
+    margin-left: 200px;
 }
 
+h1 {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px 0 10px;
+    background: #22262a;
+    color: white;
+
+}
 
 /* Slet @media hvis ikke bliver brugt */
 /* husk 2 afslutninger {} inde i @media */
