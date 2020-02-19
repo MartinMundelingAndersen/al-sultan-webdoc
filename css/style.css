@@ -1,5 +1,6 @@
 html {
-    background-color: darkorange;
+    background-color: #990000;
+    font-family: helvetica;
 }
 
 body {
@@ -45,22 +46,42 @@ ul p {
     font-weight: 1000;
 }
 
-#wrapper {
-    margin-left: 200px;
-}
+
+
 
 h1 {
     text-align: center;
+    color: orange;
 }
 
 footer {
-    display: flex;
-    justify-content: space-between;
-    padding-left: 200px;
-    padding-right: 50px;
+    padding: 10px 0 10px 0;
     background: #22262a;
     color: white;
+    text-align: center;
 }
+
+h3 {
+    font-size: 25px;
+}
+
+#pin {
+    width: 30px;
+}
+
+#map {
+    margin-bottom: 20px;
+}
+
+#tlf {
+    width: 50px;
+}
+
+.kontakt {
+    width: 75px;
+    padding: 0 30px;
+}
+
 
 /* Slet @media hvis ikke bliver brugt */
 /* husk 2 afslutninger {} inde i @media */
