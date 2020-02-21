@@ -22,17 +22,15 @@ header {
     z-index: -1;
 }
 
-.overskrift-container {
+.logo-container {
     position: relative;
     align-items: center;
-    color: black;
-    font-size: 40px;
 }
 
-.overskrift {
+.logo {
     position: absolute;
-    top: 20px;
-    left: 40%;
+    top: 1px;
+    left: 33%;
     margin-right: auto;
 }
 
