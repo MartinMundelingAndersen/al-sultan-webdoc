@@ -1,34 +1,28 @@
 "use strict";
 
-//SLIDESHOW
-function gaaFremad() {
-    if (billedIndeks < billedliste.length - 1) {
-        billedIndeks++;
-    } else {
-        billedIndeks = 0;
-    }
+var slideIndex = 1;
+showSlides(slideIndex);
 
-    document.getElementById("slidebillede").src = billedliste[billedIndeks];
+function plusSlides(n) {
+  showSlides(slideIndex += n);
 }
 
-function gaaTilbage() {
-    if (billedIndeks > 0) {
-        billedIndeks--;
-    } else {
-        billedIndeks = 2; //Kan ændres til billedeliste.lenght-1 i stedet for 2. Så kan man tilføje flere billeder til sit slideshow, uden at ændre særligt meget andet.
-    }
-
-    document.getElementById("slidebillede").src = billedliste[billedIndeks];
+function currentSlide(n) {
+  showSlides(slideIndex = n);
 }
 
-// ------- Hovedprogram ---------
-const billedliste = ["billed1.jpg", "loeve.jpg", "loevepar.jpg"];
-let billedIndeks = 0;
-
-document.getElementById("frem").addEventListener("click", function () {
-    gaaFremad();
-})
-
-document.getElementById("tilbage").addEventListener("click", function () {
-    gaaTilbage();
-})
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
