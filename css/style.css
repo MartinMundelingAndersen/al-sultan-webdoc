@@ -156,6 +156,27 @@ header {
     }
 }
 
+/*KUNDER MED LYD*/
+.kunder-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.kunde {
+    width: 300px;
+}
+
+.ikon {
+    font-size: 70px;
+}
+
+.ikon:hover {
+    opacity: 0.7;
+    color: darkorange;
+    cursor: pointer;
+}
+
+
 /*FOOTER*/
 
 footer {
