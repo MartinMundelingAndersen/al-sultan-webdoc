@@ -15,11 +15,9 @@
 <body>
     <header>
         <!-- HER SKAL LOGOET VÆRE OG IKKE TEKST -->
-        <div class="logo-container">
-            <img class="wood" src="images/wood.jpg" alt="træ planke">
-            <div class="logo">
-                <img id="logo" src="images/logo.png" alt="logo">
-            </div>
+
+        <div class="logo">
+            <img src="images/logo.png" alt="logo">
         </div>
         <nav>
 
@@ -37,10 +35,11 @@
         <!--TEKST OMKRING AL SULTAN HER-->
         <div class="intro-tekst">
             <h2>Velkommen til Al Sultan</h2>
-            <p>Vi er en familie ejet restaurant, med 23 års erfaring indenfor mellemøstlig madkultur og grill.<br>
-                Kom ind og prøv vores familie fade, hjemmelavet pita eller vores brunchmenu.</p>
-
+            <p>I 1997 åbnede Abu Basel det første spisested i Bazar Vest. Bazaren er et oplevelsescenter, hvor “Verden mødes”. <br> Her skabte han familierestauranten Al Sultan. I dag er stedet overdraget til hans søn Alaa Hamid, <br> som fører de samme, gode arabiske opskrifter videre.</p>
+            <p>Vi har 23 års erfaring med mellemøstlige retter og grillmad. Vores køkken er primært libanesisk, syrisk og palæstinensisk.</p>
+            <p>Kom ind og prøv vores familiefad, brunch eller hjemmelavede pita. Bestil det som takeaway eller nyd din mad i restauranten. <br> Uanset om du skal fejre fødselsdag, forkæle familien eller slappe af med vennerne, så garanterer vi dig en oplevelse ud over det sædvanlige <br> i ægte arabiske omgivelser. Ring og bestil bord på +45 87 38 92 92.</p>
             <p>"Vi tror, at kærligheden til mad er ægte og varer evigt."</p>
+
         </div>
 
         <!--SLIDESHOW HER-->
@@ -79,59 +78,67 @@
         <!--MØD NOGLE AF VORES KUNDER HER-->
         <div class="kunder-container">
             <div class="lyd">
-                <img class="kunde" src="images/Sofie.png" alt="Kunde-Sofie">
-                <i class="fas ikon fa-play-circle" id="spil">&nbsp;</i>
+                <img class="kunde" src="images/sofie.PNG" alt="Kunde-Sofie">
+                <i class="fas ikon fa-play-circle" id="sofie">&nbsp;</i>
+                <p>Sofie besøger Bazar Vest et par gange om måneden, fordi hun elsker det mellemøstlige køkken. Al Sultan kan sagtens tage hensyn til, at hun er vegetar, hvilket er et kriterie, når hun vælger restaurant. </p>
 
             </div>
             <div class="lyd">
-                <img class="kunde" src="images/Sandra.png" alt="Kunde-Sandra">
-                <i class="fas ikon fa-play-circle" id="spil">&nbsp;</i>
-
+                <img class="kunde" src="images/Muhammed.png" alt="Kunde-Muhammed">
+                <i class="fas ikon fa-play-circle" id="muhammed">&nbsp;</i>
+                <p>Muhammed er kommet i Bazar Vest siden han var helt lille. Han kommer typisk for at handle madvarer og blive klippet ved den lokale barber. Han spiser af og til på Al Sultan med familie eller venner. Han synes, at både maden og servicen er anbefalelsesværdigt. </p>
+            </div>
+            <div class="lyd">
+                <img class="kunde" src="images/sandra.png" alt="Kunde-Sandra">
+                <i class="fas ikon fa-play-circle" id="sandra">&nbsp;</i>
+                <p>Sandra besøgte for nylig Bazar Vest for første gang. Hun kender ikke særlig meget til stedet, men fik Al Sultan anbefalet af en arbejdskollega. Hun har stor interesse for mad og den tilhørende kultur. Hun synes, at både stemningen og det mellemøstlige mad var en spændende oplevelse. </p>
 
             </div>
         </div>
 
         <!--TILBEREDNINGS VIDEO HER SAMT TEKST OMKRING TILBEREDNING OG INGREDIENSER-->
+        <div class="video-container">
+            <video loop id="video" class="video" controls="autoplay">
+                <source src="images/test-video.mp4" type="video/mp4">
+            </video>
+        </div>
 
     </main>
 
     <footer>
-        <section>
-            <h3>Åbningstider</h3>
-            <p><strong>Mandag: </strong>Lukket <br>
-                <strong>Tirsdag: </strong>10.00-18.00 <br>
-                <strong>Onsdag: </strong>10.00-18.00 <br>
-                <strong>Torsdag: </strong>10.00-18.00 <br>
-                <strong>Fredag: </strong>10.00-18.00 <br>
-                <strong>Lørdag: </strong>10.00-18.00 <br>
-                <strong>Søndag: </strong>10.00-18.00</p>
-        </section>
-        <section>
-            <img id="pin" src="images/pin.png" alt="pin point">
-            <h3>Find os</h3>
-            <p>Edwin Rahrs Vej 32,
-                Brabrand</p>
-            <div id="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8886.48937369003!2d10.12475064583698!3d56.163634038799124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464c1538b42ec955%3A0x6a3ba2dfd67fd0a6!2sEdwin%20Rahrs%20Vej%2032%2C%208220%20Brabrand!5e0!3m2!1sda!2sdk!4v1582052765272!5m2!1sda!2sdk" width="500px" height="300px" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        <img id="ur" src="images/ur.png" alt="ur">
+        <h3>Åbningstider</h3>
+        <p><strong>Mandag: </strong>Lukket </p>
+        <p><strong>Tirsdag - Søndag: </strong>10.00-18.00</p> <br>
 
-            </div>
-        </section>
-        <section>
+        <img id="pin" src="images/pin.png" alt="pin point">
+        <h3>Find os</h3>
+        <p>Edwin Rahrs Vej 32,
+            Brabrand</p>
+        <br>
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8886.48937369003!2d10.12475064583698!3d56.163634038799124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464c1538b42ec955%3A0x6a3ba2dfd67fd0a6!2sEdwin%20Rahrs%20Vej%2032%2C%208220%20Brabrand!5e0!3m2!1sda!2sdk!4v1582052765272!5m2!1sda!2sdk" width="500px" height="300px" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
 
-            <img id="tlf" src="images/phone.png" alt="telefon knap">
-            <h3>Kontakt os</h3>
-            <p>På telefonnummeret:</p>
-            <a href="+45 87 38 92 92"><u>+45 87 38 92 92</u></a> <br>
-            <p><strong>Eller</strong></p>
-            <p>find os på Facebook og Instagram</p>
-            <a href="#top">
-                <img class="arrow" src="arrow.png" alt="til toppen"></a>
-            <a href="https://www.facebook.com/alsultanbazarvest/"><img class="kontakt" src="images/facebook-kopi.png" alt="facebook knap"> </a>
-            <a href="https://www.instagram.com/alsultan_bazarvest/"> <img class="kontakt" src="images/instagram-kopi.png" alt="instagram knap"></a>
-            <a href="#top">
-                <img class="arrow2" src="arrow.png" alt="til toppen"></a>
-        </section>
+        <h4>Transport</h4>
+        <p>Gratis parkering <br> Bus 4A og 15 kører lige til døren </p>
+        <br>
+
+        <img id="tlf" src="images/phone.png" alt="telefon knap">
+        <h3>Kontakt os</h3>
+        <p>For bordbestilling og øvrige spørgsmål</p>
+        <a href="+45 87 38 92 92" style="color: white;"><u>+45 87 38 92 92</u></a>
+        <p> <br> Vi kan lave store bestillinger som større arrangementer, <br> bryllupper, fødselsdage m.m. Ring og hør nærmere.</p>
+        <p><br><strong>Eller</strong></p>
+        <p> <br> Find os på:</p>
+
+        <a href="https://www.facebook.com/alsultanbazarvest/"><img class="kontakt" src="images/facebook-kopi.png" alt="facebook knap"> </a>
+        <a href="https://www.instagram.com/alsultan_bazarvest/"> <img class="kontakt" src="images/instagram-kopi.png" alt="instagram knap"></a>
+
+
     </footer>
 
     <script src="mitscript.js"></script>
-</body></html>
+</body>
+
+</html>

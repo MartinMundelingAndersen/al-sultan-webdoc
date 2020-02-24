@@ -29,13 +29,39 @@ function showSlides(n) {
     }
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " active";
-}
+};
 
 //LYDOPTAGELSER
-const filen = new Audio("Bouncy_Fun_1.mp3");
 
-document.getElementById("spil").addEventListener("click", event => {
-    filen.play();
-    filen.pause();
+const sofie = new Audio("sound/sofie.mp3");
+
+document.getElementById("sofie").addEventListener("click", event => {
+    if (!sofie.paused) {
+        sofie.pause();
+    } else {
+        sofie.play();
+    }
+
 });
 
+const muhammed = new Audio("sound/muhammed.mp3");
+
+document.getElementById("muhammed").addEventListener("click", event => {
+    if (!muhammed.paused) {
+        muhammed.pause();
+    } else {
+        muhammed.play();
+    }
+
+});
+
+const sandra = new Audio("sound/sandra.mp3");
+
+document.getElementById("sandra").addEventListener("click", event => {
+    if (!sandra.paused) {
+        sandra.pause();
+    } else {
+        sandra.play();
+    }
+
+});
